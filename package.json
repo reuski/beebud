@@ -2,17 +2,13 @@
 	"name": "beebud",
 	"private": true,
 	"version": "0.0.1",
-	"license": "AGPL-3.0-only",
 	"type": "module",
 	"scripts": {
 		"dev": "bun --bun vite dev",
-		"build": "bun --bun vite build",
-		"start": "bun build/index.js",
-		"preview": "bun --bun vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"test": "bun test",
 		"lint": "biome check .",
-		"format": "biome format --write ."
+		"build": "bun --bun vite build"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.12",

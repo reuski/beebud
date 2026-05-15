@@ -21,9 +21,6 @@ site-condition signals.
 - `bun run test`
 - `bun run lint`
 - `bun run build`
-- `bun run start`
-- `bun run preview`
-- `bun run format`
 
 ## Runtime contract
 
