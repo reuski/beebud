@@ -1,0 +1,30 @@
+{
+	"name": "beebud",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "bun --bun vite dev",
+		"build": "bun --bun vite build",
+		"start": "bun build/index.js",
+		"preview": "bun --bun vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"test": "bun test",
+		"lint": "biome check .",
+		"format": "biome format --write ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.4.12",
+		"@sveltejs/kit": "^2.57.1",
+		"@sveltejs/vite-plugin-svelte": "^6.2.4",
+		"@types/node": "^25.6.0",
+		"svelte": "^5.55.4",
+		"svelte-adapter-bun": "^1.0.1",
+		"svelte-check": "^4.4.6",
+		"typescript": "^5.9.3",
+		"vite": "^7.3.2"
+	},
+	"dependencies": {
+		"zod": "^4.3.6"
+	}
+}
