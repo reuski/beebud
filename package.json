@@ -8,7 +8,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"test": "bun test",
 		"lint": "biome check .",
-		"build": "bun --bun vite build"
+		"build": "bun node_modules/vite/bin/vite.js build"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.12",
